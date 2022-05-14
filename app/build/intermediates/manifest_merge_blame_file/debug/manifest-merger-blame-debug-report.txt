@@ -1,0 +1,131 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rfid.app"
+4    android:versionCode="10000"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:7:5-81
+12-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:8:5-75
+13-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:8:22-72
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:9:5-80
+14-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:9:22-77
+15    <uses-permission android:name="android.permission.BLUETOOTH" />
+15-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:10:5-68
+15-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:10:22-65
+16    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+16-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:11:5-74
+16-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:11:22-71
+17    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+17-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:12:5-86
+17-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:12:22-83
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:13:5-65
+18-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:13:22-62
+19    <uses-permission android:name="android.permission.VIBRATE" />
+19-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:14:5-66
+19-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:14:22-63
+20    <uses-permission android:name="android.permission.FLASHLIGHT" />
+20-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:15:5-69
+20-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:15:22-66
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:16:5-79
+21-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:16:22-76
+22    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+22-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:17:5-83
+22-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:17:22-80
+23
+24    <uses-feature
+24-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:19:5-21:35
+25        android:name="android.hardware.camera"
+25-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:20:9-47
+26        android:required="true" />
+26-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:21:9-32
+27    <uses-feature android:name="android.hardware.camera.autofocus" />
+27-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:22:5-70
+27-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:22:19-67
+28
+29    <application
+29-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:24:5-61:19
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.5.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\48cd7bd08e89712a0952f96bb9006374\core-1.5.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:icon="@drawable/scanner256"
+33-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:25:9-44
+34        android:label="@string/app_name"
+34-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:26:9-41
+35        android:networkSecurityConfig="@xml/network_security_config"
+35-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:27:9-69
+36        android:testOnly="true"
+37        android:usesCleartextTraffic="true" >
+37-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:28:9-44
+38        <activity
+38-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:30:9-38:20
+39            android:name="com.rfid.app.MainActivity"
+39-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:31:13-41
+40            android:theme="@style/Theme.AppCompat" >
+40-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:32:13-51
+41            <intent-filter>
+41-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:33:13-37:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:34:17-69
+42-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:34:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:36:17-77
+44-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:36:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity android:name="com.rfid.app.RFIDScanActivity" >
+47-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:39:9-41:20
+47-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:39:19-51
+48        </activity>
+49        <activity
+49-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:42:9-51:20
+50            android:name="com.rfid.app.RFIDViewActivity"
+50-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:43:13-45
+51            android:label="@string/form_scan_detail"
+51-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:44:13-53
+52            android:parentActivityName="com.rfid.app.RFIDViewActivity"
+52-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:45:13-59
+53            android:windowSoftInputMode="stateAlwaysHidden" >
+53-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:46:13-60
+54            <meta-data
+54-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:48:13-50:53
+55                android:name="android.support.PARENT_ACTIVITY"
+55-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:49:17-63
+56                android:value=".RFIDScanActivity" />
+56-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:50:17-50
+57        </activity>
+58        <activity
+58-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:52:9-56:20
+59            android:name="com.rfid.app.filebrowser.FileManagerActivity"
+59-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:53:13-60
+60            android:screenOrientation="portrait"
+60-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:54:13-49
+61            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+61-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:55:13-72
+62        </activity>
+63
+64        <meta-data
+64-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:58:9-60:39
+65            android:name="com.google.android.gms.vision.DEPENDENCIES"
+65-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:59:13-70
+66            android:value="barcode" />
+66-->C:\Users\DELL\Downloads\RFID.Android\app\src\main\AndroidManifest.xml:60:13-36
+67    </application>
+68
+69</manifest>
